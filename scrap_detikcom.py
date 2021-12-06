@@ -32,8 +32,7 @@ def next_page():
     next_link = element.get_attribute('href')
     driver.get(next_link)
 
-tag = 'pinangki'
-#tag = 'bank-indonesia'
+tag = 'tag'
 
 link_home = "https://www.detik.com/tag/" + tag + "/?sortby=time&page="
 print(link_home)
